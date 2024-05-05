@@ -1,0 +1,12 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://waimoezaw:waimoezaw@atlascluster.zlkdnji.mongodb.net/book?retryWrites=true&w=majority&appName=AtlasCluster
+logging:
+  level:
+    org:
+      springframework:
+            data.mongodb: INFO
+            boot.autoconfigure.mongo: INFO
+    com.mongodb.client: INFO
